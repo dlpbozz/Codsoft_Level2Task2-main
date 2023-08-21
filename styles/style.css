@@ -236,10 +236,10 @@ main {
 
 .booking-block {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 700px;
+    max-width: 770px;
     margin: 0 auto;
     gap: 30px;
     background:var(--white);
@@ -621,4 +621,12 @@ main {
 .footer-bottom p {
     font-size: 14px;
     margin: 0;
+}
+
+
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
